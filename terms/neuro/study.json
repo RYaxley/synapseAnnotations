@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.24",
+    "$id": "sage.annotations-neuro.study-0.0.25",
     "description": "Study",
     "anyOf": [
         {
@@ -232,6 +232,11 @@
             "const": "Jax.IU.Pitt_StrainValidation",
             "description": "Strain validation data from the Jax.IU.Pitt MODEL-AD grant",
             "source": "https://www.synapse.org/#!Synapse:syn21595255"
+        },
+        {
+            "const": "Jax.IU.Pitt_Verubecestat_5XFAD",
+            "description": "Data from 5XFAD mice treated with verubecestat from the Jax.IU.Pitt MODEL-AD grant",
+            "source": "https://www.synapse.org/#!Synapse:syn21863375"
         },
         {
             "const": "LillyMicroglia",
